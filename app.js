@@ -18,10 +18,7 @@ alert(user + ' , I am so glad you want to play my game!');
 
 console.log('The user\'s name is ' + user + ' I am so glad you want to play my game.');
 
-for(var questionNum = 0; questionNum < 5; questionNum++) {
-  firstToFifthQuestion(questionNum);
-}
-
+//questions 1 to 5
 function firstToFifthQuestion(questionNum) {
   var userResponse;
   var userAnswer = prompt('Guess if Laboni ' + questionArray[questionNum], 'Type yes or no').toLocaleLowerCase();
@@ -44,6 +41,10 @@ function firstToFifthQuestion(questionNum) {
 
   question++;
   alert('You currently have ' + userPoints + ' points and you have answered ' + question + ' questions!');
+}
+
+for(var questionNum = 0; questionNum < 5; questionNum++) {
+  firstToFifthQuestion(questionNum);
 }
 
 // Question 6

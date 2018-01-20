@@ -2,6 +2,16 @@
     font-family: "Lora", Arial, Helvetica, sans-serif;
     background-color: #959595;
 }
+
+#laboni-image {
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
 h1{
     background-color: #e9ff35;
     color: #333333;
@@ -9,7 +19,7 @@ h1{
 }
 
 div > h2 {
-    color: white;
+    color: #333333;
 }
 
 p {
@@ -19,7 +29,7 @@ p {
 }
 
 div > h3 {
-    color: white;
+    color: #333333;
 }
 
 p {
